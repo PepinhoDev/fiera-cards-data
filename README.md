@@ -30,4 +30,4 @@ If an event is cancelled or moved, fix or remove it. Events starting within 30 d
 when `lastChecked` is older than 60 days.
 
 ## License
-To be decided before wide use (suggestion: CC0 or CC BY 4.0 for the data).
+The data is released under [CC0 1.0 Universal](LICENSE): you can reuse it freely, without attribution.
