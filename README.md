@@ -1,33 +1,33 @@
-# Fiera Cards – dati degli eventi
+# Fiera Cards – events data
 
-Elenco curato di fiere, convention e mercatini di carte collezionabili, letto dall'app **Fiera Cards**.
-L'app scarica `events/<paese>.json` e filtra per data e distanza **sul telefono**: nessuna posizione viene inviata a un server.
+A curated list of trading card fairs, conventions, markets and tournaments, read by the **Fiera Cards** app.
+The app downloads `events/<country>.json` and filters by date and distance **on the phone**: no location is ever sent to a server.
 
-## Struttura
-- `events/it.json`: eventi in Italia (un file per paese, codice ISO a 2 lettere).
-- `schema.md`: significato dei campi.
-- `scripts/validate.mjs`: controlla i file (`node scripts/validate.mjs`). Va eseguito prima di ogni merge.
+## Layout
+- `events/it.json`: events in Italy (one file per country, 2-letter ISO code).
+- `schema.md`: meaning of each field.
+- `scripts/validate.mjs`: checks the files (`node scripts/validate.mjs`). It also runs on every push and pull request.
 
-## Regole
-- Un evento entra con `status: "verified"` solo se data e luogo sono confermati sul **sito ufficiale** (`url`).
-  I dati raccolti da ricerche automatiche restano `"unverified"`.
-- Solo fatti (nome, luogo, date, link): niente testi o immagini copiati dai siti degli organizzatori.
-- Gli eventi passati si rimuovono (o archiviano) periodicamente.
-- Le proposte della community arrivano come issue/pull request e vengono controllate a mano.
-  Si rifiutano eventi non verificabili, link non `https`, testi offensivi o promozionali.
+## Rules
+- An event is `status: "verified"` only if its dates and place are confirmed on the **official website** (`url`).
+  Data collected from searches stays `"unverified"`.
+- Facts only (name, place, dates, link): no text or images copied from organizers' websites.
+- Past events are removed (or archived) from time to time.
+- Community proposals arrive as issues or pull requests and are reviewed by hand.
+  Events that cannot be verified, non-`https` links, offensive or promotional text are rejected.
 
-## Come si verifica un evento
-Un evento passa da `"unverified"` a `"verified"` solo dopo questi controlli:
-1. Apri il **sito ufficiale** (`url`) e controlla che sia l'edizione dell'anno giusto: date di inizio e fine.
-2. Controlla la **sede** e l'indirizzo. Ricava le coordinate esatte (da Apple Maps, Google Maps o OpenStreetMap)
-   e, se sono quelle della sede, imposta `geoPrecision: "venue"`.
-3. Aggiungi tra le `sources` la pagina ufficiale che conferma i dati.
-4. Imposta `status: "verified"` e `lastChecked` alla data odierna.
-5. Esegui `node scripts/validate.mjs` (lo fa anche GitHub a ogni push e pull request).
-6. Commit e push (o pull request, se la modifica arriva da altri).
+## How to verify an event
+An event goes from `"unverified"` to `"verified"` only after these checks:
+1. Open the **official website** (`url`) and confirm it is the right edition: **start and end dates**.
+2. Check the **venue** and address. Get the exact coordinates (Apple Maps, Google Maps or OpenStreetMap)
+   and, if they are the venue's, set `geoPrecision: "venue"`.
+3. Add the official page that confirms the data to `sources`.
+4. Set `status: "verified"` and `lastChecked` to today's date.
+5. Run `node scripts/validate.mjs` (GitHub also runs it on every push and pull request).
+6. Commit and push (or open a pull request, if the change comes from someone else).
 
-Se un evento viene annullato o spostato, si corregge o si rimuove. Gli eventi a meno di 30 giorni dall'inizio
-andrebbero ricontrollati se `lastChecked` ha più di 60 giorni.
+If an event is cancelled or moved, fix or remove it. Events starting within 30 days should be re-checked
+when `lastChecked` is older than 60 days.
 
-## Licenza
-Da decidere prima della pubblicazione (suggerimento: CC0 o CC BY per i dati).
+## License
+To be decided before wide use (suggestion: CC0 or CC BY 4.0 for the data).
