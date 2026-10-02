@@ -18,9 +18,12 @@
       "lon": 12.236,
       "geoPrecision": "city",
       "url": "https://www.romics.it/",
-      "sources": ["https://www.turismoroma.it/it/eventi/romics-2026-36esima-edizione"],
+      "sources": [
+        "https://www.turismoroma.it/it/eventi/romics-2026-36esima-edizione"
+      ],
       "status": "unverified",
-      "lastChecked": "2026-10-02"
+      "lastChecked": "2026-10-02",
+      "notes": "The official homepage already shows the 37th edition and does not state these dates: confirm on the official programme page."
     },
     {
       "id": "lucca-comics-games-2026",
@@ -37,10 +40,13 @@
       "lon": 10.503,
       "geoPrecision": "city",
       "url": "https://www.luccacomicsandgames.com/",
-      "sources": ["https://www.animeclick.it/news/amp/108678-lucca-comics-games-2026-ecco-le-date-della-prossima-edizione.amp.html"],
-      "status": "unverified",
+      "sources": [
+        "https://www.luccacomicsandgames.com/",
+        "https://www.animeclick.it/news/amp/108678-lucca-comics-games-2026-ecco-le-date-della-prossima-edizione.amp.html"
+      ],
+      "status": "verified",
       "lastChecked": "2026-10-02",
-      "notes": "Area giochi e tornei di carte da verificare sul sito ufficiale."
+      "notes": "The whole historic centre hosts the event; coordinates are those of the city centre. Card area and Magic tournaments to be confirmed on the official site."
     },
     {
       "id": "milan-games-week-cartoomics-2026",
@@ -57,7 +63,9 @@
       "lon": 9.083,
       "geoPrecision": "city",
       "url": "https://www.milangamesweek.it/",
-      "sources": ["https://multiplayer.it/notizie/milan-games-week-cartoomics-2026-annunciato-il-programma-biglietti-in-vendita-da-oggi.html"],
+      "sources": [
+        "https://multiplayer.it/notizie/milan-games-week-cartoomics-2026-annunciato-il-programma-biglietti-in-vendita-da-oggi.html"
+      ],
       "status": "unverified",
       "lastChecked": "2026-10-02"
     }

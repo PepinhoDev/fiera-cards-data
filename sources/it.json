@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "country": "IT",
+  "updated": "2026-10-02",
+  "sources": [
+    {
+      "id": "lucca-comics-games",
+      "name": "Lucca Comics & Games",
+      "kind": "recurring-event",
+      "url": "https://www.luccacomicsandgames.com/",
+      "typicalMonths": [10, 11],
+      "tcg": "area",
+      "lastSeen": { "edition": "2026", "startDate": "2026-10-28", "endDate": "2026-11-01", "city": "Lucca" },
+      "checkMethod": "static-page",
+      "notes": "Official page states the dates (worked with a plain page read)."
+    },
+    {
+      "id": "romics",
+      "name": "Romics (spring and autumn editions)",
+      "kind": "recurring-event",
+      "url": "https://www.romics.it/",
+      "typicalMonths": [4, 10],
+      "tcg": "unknown",
+      "lastSeen": { "edition": "2026 autumn (36th)", "startDate": "2026-10-01", "endDate": "2026-10-04", "city": "Roma" },
+      "checkMethod": "static-page-partial",
+      "notes": "Homepage already shows the next edition and no dates: use the programme page or the venue (Fiera di Roma)."
+    },
+    {
+      "id": "milan-games-week-cartoomics",
+      "name": "Milan Games Week & Cartoomics",
+      "kind": "recurring-event",
+      "url": "https://www.milangamesweek.it/",
+      "typicalMonths": [11],
+      "tcg": "unknown",
+      "lastSeen": { "edition": "2026", "startDate": "2026-11-27", "endDate": "2026-11-29", "city": "Rho (Milano)" },
+      "checkMethod": "js-heavy",
+      "notes": "Homepage is empty without JavaScript: use press releases or a browser-based reader."
+    },
+    {
+      "id": "collect-it",
+      "name": "Collect IT (card show by CardsGuru)",
+      "kind": "recurring-event",
+      "url": null,
+      "typicalMonths": [5, 9],
+      "tcg": "core",
+      "lastSeen": { "edition": "2026 Milano", "startDate": "2026-09-19", "endDate": "2026-09-19", "city": "Assago (Milano)" },
+      "checkMethod": "unknown",
+      "notes": "2026 editions: Roma on 2026-05-23, Milano on 2026-09-19. Official site not identified yet; listed on the card show aggregator below."
+    },
+    {
+      "id": "ultimate-guard-european-magic-series",
+      "name": "Ultimate Guard European Magic Series (Regional Championship, Torino)",
+      "kind": "recurring-event",
+      "url": "https://lingottofiere.it/en/events/ultimate-guard-european-magic-series/",
+      "typicalMonths": [3],
+      "tcg": "core",
+      "lastSeen": { "edition": "2026", "startDate": "2026-03-06", "endDate": "2026-03-08", "city": "Torino" },
+      "checkMethod": "unknown",
+      "notes": "Hosted at Lingotto Fiere. Next edition not checked."
+    },
+    {
+      "id": "play-the-games-festival",
+      "name": "Play – The Games Festival",
+      "kind": "recurring-event",
+      "url": "https://www.play-festival.it/",
+      "typicalMonths": [5],
+      "tcg": "unknown",
+      "lastSeen": { "edition": "2026 (17th)", "startDate": "2026-05-22", "endDate": "2026-05-24", "city": "Bologna" },
+      "checkMethod": "unknown",
+      "notes": "BolognaFiere. Presence of card games not checked."
+    },
+    {
+      "id": "torino-comics",
+      "name": "Torino Comics",
+      "kind": "recurring-event",
+      "url": "https://lingottofiere.it/en/events/torino-comics/",
+      "typicalMonths": [5, 6],
+      "tcg": "unknown",
+      "lastSeen": { "edition": "2026", "startDate": "2026-05-30", "endDate": "2026-06-01", "city": "Collegno (Torino)" },
+      "checkMethod": "unknown",
+      "notes": "Parco della Certosa, Collegno."
+    },
+    {
+      "id": "etna-comics",
+      "name": "Etna Comics",
+      "kind": "recurring-event",
+      "url": null,
+      "typicalMonths": [5, 6],
+      "tcg": "unknown",
+      "lastSeen": { "edition": "2026 (14th)", "startDate": "2026-05-30", "endDate": "2026-06-02", "city": "Catania" },
+      "checkMethod": "unknown",
+      "notes": "Le Ciminiere, Catania. Official site not identified yet."
+    },
+    {
+      "id": "napoli-comicon",
+      "name": "Napoli Comicon",
+      "kind": "recurring-event",
+      "url": null,
+      "typicalMonths": [4, 5],
+      "tcg": "unknown",
+      "lastSeen": { "edition": "2026", "startDate": "2026-04-30", "endDate": "2026-05-03", "city": "Napoli" },
+      "checkMethod": "unknown",
+      "notes": "Mostra d'Oltremare. Official site not identified yet."
+    },
+    {
+      "id": "cardfest-napoli",
+      "name": "CardFest Napoli",
+      "kind": "recurring-event",
+      "url": null,
+      "typicalMonths": [9],
+      "tcg": "core",
+      "lastSeen": { "edition": "2026", "startDate": "2026-09-11", "endDate": "2026-09-12", "city": "Napoli" },
+      "checkMethod": "unknown",
+      "notes": "Mostra d'Oltremare; sports cards and TCG (Pokémon, Magic, Yu-Gi-Oh!). Official site not identified yet."
+    },
+    {
+      "id": "nebraskas-war-lucca",
+      "name": "Nebraska's War (Magic tournaments, Lucca)",
+      "kind": "recurring-event",
+      "url": null,
+      "typicalMonths": [12],
+      "tcg": "core",
+      "lastSeen": null,
+      "checkMethod": "unknown",
+      "notes": "Polo Fiere di Lucca, December. Found articles are from earlier years: edition and dates for 2026 unknown, to be confirmed."
+    },
+    {
+      "id": "legacy-magic-showdown",
+      "name": "Legacy Magic Showdown (Bologna)",
+      "kind": "recurring-event",
+      "url": "https://bolognaconventionbureau.it/en/events/legacy-magic-showdown",
+      "typicalMonths": [],
+      "tcg": "core",
+      "lastSeen": null,
+      "checkMethod": "unknown",
+      "notes": "Magic tournament in Bologna; dates not checked."
+    },
+    {
+      "id": "cardpulse-italy",
+      "name": "Cardpulse – card shows in Italy",
+      "kind": "aggregator",
+      "url": "https://www.cardpulse.club/card-shows/italy",
+      "typicalMonths": [],
+      "tcg": "core",
+      "lastSeen": null,
+      "checkMethod": "unknown",
+      "notes": "Lists card shows (at the time of the search: 2 in Italy for 2026). Useful to detect new card shows; verify each on the organizer's site."
+    },
+    {
+      "id": "neventum-games-italy",
+      "name": "Neventum – games trade shows in Italy",
+      "kind": "aggregator",
+      "url": "https://www.neventum.com/tradeshows/games/italy",
+      "typicalMonths": [],
+      "tcg": "unknown",
+      "lastSeen": null,
+      "checkMethod": "unknown",
+      "notes": "Trade show directory; mostly B2B events."
+    }
+  ]
+}

@@ -40,5 +40,31 @@ for (const file of readdirSync("events").filter((f) => f.endsWith(".json"))) {
     if (e.notes !== undefined && !isText(e.notes, 300)) f("invalid notes");
   }
 }
+// Source registry (sources/*.json): where events are looked up. Not read by the app.
+let sourceFiles = [];
+try {
+  sourceFiles = readdirSync("sources").filter((f) => f.endsWith(".json"));
+} catch {
+  // no registry
+}
+for (const file of sourceFiles) {
+  const data = JSON.parse(readFileSync(`sources/${file}`, "utf8"));
+  const ids = new Set();
+  for (const e of data.sources ?? []) {
+    const f = (m) => fail(`sources/${file}`, e.id, m);
+    if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(e.id ?? "")) f("invalid id");
+    if (ids.has(e.id)) f("duplicate id");
+    ids.add(e.id);
+    if (!isText(e.name, 120)) f("invalid name");
+    if (!["recurring-event", "aggregator"].includes(e.kind)) f("invalid kind");
+    if (e.url !== null && !isHttps(e.url)) f("url must be https or null");
+    if (!Array.isArray(e.typicalMonths) || !e.typicalMonths.every((m) => Number.isInteger(m) && m >= 1 && m <= 12)) f("invalid typicalMonths");
+    if (!TCG.includes(e.tcg)) f("invalid tcg");
+    if (e.lastSeen !== null && !(isDate(e.lastSeen?.startDate) && isDate(e.lastSeen?.endDate))) f("invalid lastSeen");
+    if (!isText(e.checkMethod, 40)) f("invalid checkMethod");
+    if (e.notes !== undefined && !isText(e.notes, 400)) f("invalid notes");
+  }
+}
+
 if (errors) process.exit(1);
 console.log("OK");
