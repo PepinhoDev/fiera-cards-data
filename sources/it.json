@@ -31,7 +31,7 @@
         4,
         10
       ],
-      "tcg": "unknown",
+      "tcg": "area",
       "lastSeen": {
         "edition": "2026 autumn (36th)",
         "startDate": "2026-10-01",
@@ -39,7 +39,7 @@
         "city": "Roma"
       },
       "checkMethod": "static-page-partial",
-      "notes": "Homepage already shows the next edition and no dates: use the programme page or the venue (Fiera di Roma)."
+      "notes": "Homepage already shows the next edition and no dates: use the programme page or the venue (Fiera di Roma). Press coverage of the autumn 2026 edition (2026-10) reports many stands dedicated to trading card games, mainly Pokémon and One Piece; Magic sellers not confirmed. Spring edition expected around April 2027."
     },
     {
       "id": "milan-games-week-cartoomics",
@@ -275,6 +275,27 @@
       },
       "checkMethod": "static-page",
       "notes": "Official homepage states dates and venue (worked with a plain page read). Has an exhibitor list page: check it for card sellers."
+    },
+    {
+      "id": "paupergeddon-lucca",
+      "name": "PauperGeddon (Lega Pauper Italia) – Lucca Polo Fiere",
+      "kind": "recurring-event",
+      "url": null,
+      "typicalMonths": [
+        3,
+        7,
+        11,
+        12
+      ],
+      "tcg": "core",
+      "lastSeen": {
+        "edition": "Summer 2025",
+        "startDate": "2025-07-04",
+        "endDate": "2025-07-06",
+        "city": "Lucca"
+      },
+      "checkMethod": "unknown",
+      "notes": "Magic Pauper tournament series organized by Lega Pauper Italia, with 'Geddon Series' qualifiers (results on mtggoldfish) and editions in Lucca (Summer 2025: 1,106 players) and Lecco. The owner reports a December 2026 edition at Polo Fiere Lucca with some card sellers: dates and an official announcement link are still needed. Official site not identified (LPI)."
     }
   ]
 }
