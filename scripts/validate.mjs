@@ -5,6 +5,7 @@ const TYPES = ["convention", "fair", "market", "tournament"];
 const TCG = ["core", "area", "unknown"];
 const STATUS = ["verified", "unverified"];
 const PRECISION = ["venue", "city"];
+const SELLERS = ["confirmed", "reported", "likely", "unknown", "none"];
 const isDate = (s) => /^\d{4}-\d{2}-\d{2}$/.test(s) && !Number.isNaN(Date.parse(s));
 const isHttps = (s) => typeof s === "string" && /^https:\/\/[^\s<>"']+$/.test(s);
 // no control characters or angle brackets (texts must not contain markup)
@@ -38,6 +39,11 @@ for (const file of readdirSync("events").filter((f) => f.endsWith(".json"))) {
     if (!STATUS.includes(e.status)) f("invalid status");
     if (!isDate(e.lastChecked)) f("invalid lastChecked");
     if (e.notes !== undefined && !isText(e.notes, 300)) f("invalid notes");
+    if (e.magicSellers !== undefined && !SELLERS.includes(e.magicSellers)) f("invalid magicSellers");
+    if (e.sellerReports !== undefined && !(Number.isInteger(e.sellerReports) && e.sellerReports >= 0)) f("invalid sellerReports");
+    if (e.evidence !== undefined && !isText(e.evidence, 300)) f("invalid evidence");
+    if (e.magicSellers === "reported" && !(e.sellerReports >= 2)) f("reported needs sellerReports >= 2");
+    if (e.magicSellers === "confirmed" && e.evidence === undefined) f("confirmed needs evidence");
   }
 }
 // Source registry (sources/*.json): where events are looked up. Not read by the app.

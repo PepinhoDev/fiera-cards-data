@@ -13,6 +13,17 @@
 | `geoPrecision` | `venue` \| `city` | `city` = approximate coordinates (city centre) |
 | `url` | `https://…` | official event website |
 | `sources` | list of `https://…` | where the data was found |
+| `magicSellers` | `confirmed` \| `reported` \| `likely` \| `unknown` \| `none` | are Magic card sellers present? See below. Default `unknown` |
+| `sellerReports` | integer, optional | number of independent user reports behind `reported` |
+| `evidence` | string (≤ 300), optional | what supports `magicSellers` (e.g. "organizer lists 6 card vendors") |
 | `status` | `verified` \| `unverified` | see README |
 | `lastChecked` | `YYYY-MM-DD` | last verification |
 | `notes` | string (≤ 300), optional | |
+
+## `magicSellers`
+Being a "TCG" event does not mean Magic singles are on sale. This field says how sure we are:
+- `confirmed`: the organizer or the exhibitor list names sellers of Magic cards.
+- `reported`: at least 2 independent user reports say sellers were there (see `sellerReports`).
+- `likely`: there is a TCG area or Magic tournaments, but no sellers are confirmed.
+- `unknown`: generic fair, nothing known (default).
+- `none`: confirmed that there are no Magic sellers.

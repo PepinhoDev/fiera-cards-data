@@ -1,0 +1,36 @@
+name: Magic sellers report
+description: Tell us whether Magic: The Gathering card sellers were at an event you visited
+title: "Magic sellers: "
+labels: ["magic-sellers"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! Reports are read by hand: an event is marked as "reported" only after at least 2 independent reports.
+        Please do not include personal data.
+  - type: input
+    id: event
+    attributes:
+      label: Event (name or id) and edition (date)
+    validations:
+      required: true
+  - type: dropdown
+    id: sellers
+    attributes:
+      label: Were there sellers of Magic cards?
+      options:
+        - "Yes, several"
+        - "Yes, one or two"
+        - "No"
+        - "I am not sure"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What did you see? (optional)
+      description: For example singles, sealed products, bulk, and roughly how many stands.
+  - type: input
+    id: source
+    attributes:
+      label: Link that confirms it (optional, https://…)

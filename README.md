@@ -17,6 +17,11 @@ The app downloads `events/<country>.json` and filters by date and distance **on 
 - Community proposals arrive as issues or pull requests and are reviewed by hand.
   Events that cannot be verified, non-`https` links, offensive or promotional text are rejected.
 
+## Magic sellers
+`magicSellers` tells whether Magic card sellers are expected (see `schema.md`). Set `confirmed` only with evidence from the
+organizer or the exhibitor list (write it in `evidence`); set `reported` only after at least 2 independent
+"Magic sellers report" issues agree (and set `sellerReports`).
+
 ## How to verify an event
 An event goes from `"unverified"` to `"verified"` only after these checks:
 1. Open the **official website** (`url`) and confirm it is the right edition: **start and end dates**.
