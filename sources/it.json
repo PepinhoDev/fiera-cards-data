@@ -222,7 +222,7 @@
       "tcg": "core",
       "lastSeen": null,
       "checkMethod": "unknown",
-      "notes": "Lists card shows (at the time of the search: 2 in Italy for 2026). Useful to detect new card shows; verify each on the organizer's site."
+      "notes": "Lists card shows per country (Italy, France, Spain, Germany, UK have pages). On 2026-10-06 Italy listed only 2 shows (Collect IT Roma and Milano, both past) and none upcoming: Italy has very few dedicated card shows; most TCG sales happen inside general conventions. Check monthly."
     },
     {
       "id": "neventum-games-italy",
@@ -254,6 +254,27 @@
       },
       "checkMethod": "unknown",
       "notes": "Winter edition 2026-01-31/02-01 and Spring edition 2026-05-16/17 at Parco Esposizioni Novegro. Includes collectibles; card sellers not confirmed. Next winter edition (early 2027) not announced in searches."
+    },
+    {
+      "id": "nerd-show-bologna",
+      "name": "Nerd Show Bologna",
+      "kind": "recurring-event",
+      "url": "https://www.nerdshow.it/",
+      "typicalMonths": [
+        1,
+        2,
+        3,
+        9
+      ],
+      "tcg": "unknown",
+      "lastSeen": {
+        "edition": "2027-01",
+        "startDate": "2027-01-23",
+        "endDate": "2027-01-24",
+        "city": "Bologna"
+      },
+      "checkMethod": "static-page",
+      "notes": "Official homepage states dates and venue (worked with a plain page read). Has an exhibitor list page: check it for card sellers."
     }
   ]
 }
