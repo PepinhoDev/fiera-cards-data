@@ -7,6 +7,7 @@ The app downloads `events/<country>.json` and filters by date and distance **on 
 - `events/it.json`: events in Italy (one file per country, 2-letter ISO code).
 - `sources/it.json`: registry of where to look for events (recurring events with their official pages, and aggregators). It is a working tool and is **not** read by the app.
 - `schema.md`: meaning of each field (events).
+- `scripts/AI_PROMPT.md`: ready-to-use prompt to ask an AI assistant for event candidates (to be verified by hand).
 - `scripts/validate.mjs`: checks the files (`node scripts/validate.mjs`). It also runs on every push and pull request.
 
 ## Rules
