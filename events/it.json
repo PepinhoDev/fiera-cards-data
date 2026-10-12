@@ -27,6 +27,52 @@
       "magicSellers": "unknown"
     },
     {
+      "id": "game-ground-bolzano-2026",
+      "name": "Game Ground",
+      "type": "convention",
+      "tcg": "unknown",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-18",
+      "city": "Bolzano",
+      "region": "Trentino-Alto Adige",
+      "venue": "Bolzano (castle, theatre and historic centre)",
+      "lat": 46.4983,
+      "lon": 11.3548,
+      "geoPrecision": "city",
+      "url": "https://www.gameground.it/",
+      "sources": [
+        "https://www.gameground.it/"
+      ],
+      "magicSellers": "unknown",
+      "status": "verified",
+      "notes": "Dates and city on the official site. It lists video game tournaments and live gameplay across several venues; trading cards are not mentioned there.",
+      "country": "IT",
+      "lastChecked": "2026-10-12"
+    },
+    {
+      "id": "reggio-calabria-comics-2026",
+      "name": "Reggio Calabria Comics",
+      "type": "convention",
+      "tcg": "unknown",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-18",
+      "city": "Reggio Calabria",
+      "region": "Calabria",
+      "venue": "Castello Aragonese",
+      "lat": 38.1113,
+      "lon": 15.6473,
+      "geoPrecision": "city",
+      "url": "https://www.reggiocalabriacomics.it/",
+      "sources": [
+        "https://www.reggiocalabriacomics.it/"
+      ],
+      "magicSellers": "unknown",
+      "status": "verified",
+      "notes": "Dates and venue on the official site. Listed areas are artist alley, cosplay, video games/RPG and exhibitions; trading cards are not mentioned. Coordinates are the city centre.",
+      "country": "IT",
+      "lastChecked": "2026-10-12"
+    },
+    {
       "id": "card-pro-milano-2026-10",
       "name": "Card Pro (Milan)",
       "type": "fair",
@@ -212,6 +258,29 @@
       "status": "unverified",
       "lastChecked": "2026-10-02",
       "magicSellers": "unknown"
+    },
+    {
+      "id": "card-mania-perugia-2026-12",
+      "name": "Card Mania (Perugia)",
+      "type": "market",
+      "tcg": "core",
+      "startDate": "2026-12-20",
+      "endDate": "2026-12-20",
+      "city": "Perugia",
+      "region": "Umbria",
+      "venue": "To be confirmed",
+      "lat": 43.1107,
+      "lon": 12.3908,
+      "geoPrecision": "city",
+      "url": "https://www.instagram.com/reel/DbqSTPYgPKx/",
+      "sources": [
+        "https://www.instagram.com/reel/DbqSTPYgPKx/"
+      ],
+      "magicSellers": "unknown",
+      "status": "unverified",
+      "notes": "Only a social post found through a third-party list; organiser, venue and games not confirmed.",
+      "country": "IT",
+      "lastChecked": "2026-10-12"
     },
     {
       "id": "nerd-show-bologna-2027-01",
