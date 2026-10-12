@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "country": "IT",
-  "updated": "2026-10-06",
+  "updated": "2026-10-12",
   "events": [
     {
       "id": "romics-autunno-2026",
@@ -27,6 +27,75 @@
       "magicSellers": "unknown"
     },
     {
+      "id": "card-pro-milano-2026-10",
+      "name": "Card Pro (Milan)",
+      "type": "fair",
+      "tcg": "core",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-17",
+      "city": "Milano",
+      "region": "Lombardia",
+      "venue": "To be confirmed",
+      "lat": 45.4642,
+      "lon": 9.19,
+      "geoPrecision": "city",
+      "url": "https://www.instagram.com/card_pro_official/",
+      "sources": [
+        "https://www.instagram.com/card_pro_official/"
+      ],
+      "magicSellers": "unknown",
+      "status": "unverified",
+      "notes": "Only found on the organiser's social profile via a third-party list; venue and games not confirmed.",
+      "country": "IT",
+      "lastChecked": "2026-10-12"
+    },
+    {
+      "id": "comofun-autunno-2026",
+      "name": "ComoFun (autumn edition)",
+      "type": "convention",
+      "tcg": "unknown",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-18",
+      "city": "Erba",
+      "region": "Lombardia",
+      "venue": "Lariofiere",
+      "lat": 45.8075,
+      "lon": 9.2229,
+      "geoPrecision": "city",
+      "url": "https://www.mentelocale.it/como/131807-comofun-2026-fiera-del-fumetto-e-della-cultura-pop-con-ospiti-christopher-lloyd.htm",
+      "sources": [
+        "https://www.mentelocale.it/como/131807-comofun-2026-fiera-del-fumetto-e-della-cultura-pop-con-ospiti-christopher-lloyd.htm"
+      ],
+      "magicSellers": "unknown",
+      "status": "unverified",
+      "notes": "Dates and venue come from a local news article; the official site was not found. Comics, gaming and retro areas are described; trading cards are not mentioned there.",
+      "country": "IT",
+      "lastChecked": "2026-10-12"
+    },
+    {
+      "id": "card-pro-bologna-2026-10",
+      "name": "Card Pro (Bologna)",
+      "type": "fair",
+      "tcg": "core",
+      "startDate": "2026-10-25",
+      "endDate": "2026-10-25",
+      "city": "Bologna",
+      "region": "Emilia-Romagna",
+      "venue": "Zanhotel Europa",
+      "lat": 44.4949,
+      "lon": 11.3426,
+      "geoPrecision": "city",
+      "url": "https://www.instagram.com/card_pro_official/",
+      "sources": [
+        "https://www.instagram.com/card_pro_official/"
+      ],
+      "magicSellers": "unknown",
+      "status": "unverified",
+      "notes": "Only found on the organiser's social profile via a third-party list; hotel name from that list, not confirmed.",
+      "country": "IT",
+      "lastChecked": "2026-10-12"
+    },
+    {
       "id": "lucca-comics-games-2026",
       "name": "Lucca Comics & Games (60ª edizione)",
       "type": "convention",
@@ -50,6 +119,77 @@
       "notes": "The whole historic centre hosts the event; coordinates are those of the city centre. Card area and Magic tournaments to be confirmed on the official site.",
       "magicSellers": "likely",
       "evidence": "Press coverage (searched 2026-10-06): Padiglione Carducci hosts the main collectible card game publishers and Magic Alley returns (artists and play tables); 730 exhibitors in 2025. Individual Magic sellers still not named: check the official exhibitor list."
+    },
+    {
+      "id": "card-pro-roma-2026-10",
+      "name": "Card Pro (Rome)",
+      "type": "fair",
+      "tcg": "core",
+      "startDate": "2026-10-31",
+      "endDate": "2026-10-31",
+      "city": "Roma",
+      "region": "Lazio",
+      "venue": "To be confirmed",
+      "lat": 41.9028,
+      "lon": 12.4964,
+      "geoPrecision": "city",
+      "url": "https://www.instagram.com/card_pro_official/",
+      "sources": [
+        "https://www.instagram.com/card_pro_official/"
+      ],
+      "magicSellers": "unknown",
+      "status": "unverified",
+      "notes": "Only found on the organiser's social profile via a third-party list; venue and games not confirmed.",
+      "country": "IT",
+      "lastChecked": "2026-10-12"
+    },
+    {
+      "id": "gardacon-autunno-2026",
+      "name": "Gardacon (autumn edition)",
+      "type": "convention",
+      "tcg": "area",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-08",
+      "city": "Montichiari",
+      "region": "Lombardia",
+      "venue": "Centro Fiera del Garda",
+      "lat": 45.4166,
+      "lon": 10.3947,
+      "geoPrecision": "city",
+      "url": "https://www.gardacon.it/",
+      "sources": [
+        "https://www.gardacon.it/",
+        "https://www.gardacon.it/pianta-guida/"
+      ],
+      "magicSellers": "likely",
+      "evidence": "Official exhibitor list names card shops (e.g. Dnacards, Koffing shop, Il coccodrillo store x Yocigaci Trading card); Magic is not stated.",
+      "status": "verified",
+      "notes": "Dates and venue read on the official site (sixth edition). Coordinates are the town centre: replace with the venue's. No spring 2027 edition is shown on the official site.",
+      "country": "IT",
+      "lastChecked": "2026-10-12"
+    },
+    {
+      "id": "vicenza-comics-games-2026-11",
+      "name": "Vicenza Comics & Games",
+      "type": "convention",
+      "tcg": "unknown",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-15",
+      "city": "Vicenza",
+      "region": "Veneto",
+      "venue": "IEG Fiera di Vicenza",
+      "lat": 45.5455,
+      "lon": 11.5354,
+      "geoPrecision": "city",
+      "url": "https://www.fieredelfumetto.it/vicenza-comics-games",
+      "sources": [
+        "https://www.fieredelfumetto.it/vicenza-comics-games"
+      ],
+      "magicSellers": "unknown",
+      "status": "verified",
+      "notes": "Dates and venue on the organiser's page. It mentions collectible cards in general; a card area or Magic sellers are not confirmed there. Coordinates are the city centre.",
+      "country": "IT",
+      "lastChecked": "2026-10-12"
     },
     {
       "id": "milan-games-week-cartoomics-2026",
@@ -95,6 +235,53 @@
       "lastChecked": "2026-10-06",
       "magicSellers": "unknown",
       "notes": "Dates and venue confirmed on the official homepage. Card games or card sellers are not mentioned there; the exhibitor list page was not reachable (404 on /espositori/): find its real address on the site."
+    },
+    {
+      "id": "damnation-tcg-fest-2027",
+      "name": "Damnation TCG Fest",
+      "type": "fair",
+      "tcg": "core",
+      "startDate": "2027-01-29",
+      "endDate": "2027-01-31",
+      "city": "Lucca",
+      "region": "Toscana",
+      "venue": "Polo Fiere Lucca",
+      "lat": 43.8429,
+      "lon": 10.5027,
+      "geoPrecision": "city",
+      "url": "https://www.luccacrea.it/news/il-polo-fiere-diventa-il-centro-del-gioco-di-carte-collezionabili-otto-eventi-in-programma-fino-alla-fine-del-2027/",
+      "sources": [
+        "https://www.luccacrea.it/news/il-polo-fiere-diventa-il-centro-del-gioco-di-carte-collezionabili-otto-eventi-in-programma-fino-alla-fine-del-2027/"
+      ],
+      "magicSellers": "likely",
+      "evidence": "Lucca Crea's article lists the event with Magic and organisers BooseMTG and Dungeon Street; no sellers are named.",
+      "status": "unverified",
+      "notes": "The 2027 dates (29-31 January) come only from an AI summary of a social post. The official article (January 2026) gives the 2026 edition as 30 Jan-1 Feb. Check Lucca Crea.",
+      "country": "IT",
+      "lastChecked": "2026-10-12"
+    },
+    {
+      "id": "play-festival-del-gioco-2027",
+      "name": "Play - Festival del Gioco",
+      "type": "convention",
+      "tcg": "unknown",
+      "startDate": "2027-04-23",
+      "endDate": "2027-04-25",
+      "city": "Bologna",
+      "region": "Emilia-Romagna",
+      "venue": "Bologna (venue to be confirmed)",
+      "lat": 44.4949,
+      "lon": 11.3426,
+      "geoPrecision": "city",
+      "url": "https://www.play-festival.it/",
+      "sources": [
+        "https://www.play-festival.it/"
+      ],
+      "magicSellers": "unknown",
+      "status": "unverified",
+      "notes": "The official page shows 23-25 April 2027 in Bologna. The venue (a move to BolognaFiere was only reported by an AI) and any card area are not confirmed.",
+      "country": "IT",
+      "lastChecked": "2026-10-12"
     }
   ]
 }
