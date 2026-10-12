@@ -108,13 +108,14 @@
       "lat": 45.8075,
       "lon": 9.2229,
       "geoPrecision": "city",
-      "url": "https://www.mentelocale.it/como/131807-comofun-2026-fiera-del-fumetto-e-della-cultura-pop-con-ospiti-christopher-lloyd.htm",
+      "url": "https://www.comofun.it/",
       "sources": [
+        "https://www.comofun.it/",
         "https://www.mentelocale.it/como/131807-comofun-2026-fiera-del-fumetto-e-della-cultura-pop-con-ospiti-christopher-lloyd.htm"
       ],
       "magicSellers": "unknown",
-      "status": "unverified",
-      "notes": "Dates and venue come from a local news article; the official site was not found. Comics, gaming and retro areas are described; trading cards are not mentioned there.",
+      "status": "verified",
+      "notes": "Dates (17-18 October) and venue (Lariofiere) on the official site. It describes comics, games, retro gaming and pop culture; trading cards are not mentioned. Coordinates are the town centre.",
       "country": "IT",
       "lastChecked": "2026-10-12"
     },
