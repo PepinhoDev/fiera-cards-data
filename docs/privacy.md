@@ -8,15 +8,18 @@ title: Fiera Cards - Privacy
 Ultimo aggiornamento: 21 ottobre 2026
 
 ### Chi siamo
+
 Fiera Cards è un'app gratuita e non ufficiale per tenere liste di carte di Magic da comprare, vedere i prezzi e consultare un elenco di fiere ed eventi.
 Titolare del trattamento: Manuel De Santis (persona fisica, sviluppatore indipendente), contatto: fieracards@gmail.com.
 
 ### In breve
+
 - **Non c'è un account** e **non abbiamo un server**: le tue liste, gli acquisti, i prezzi e le carte scansionate restano **sul tuo telefono**.
 - **Non raccogliamo dati su di te**, non facciamo pubblicità, non usiamo statistiche né strumenti di tracciamento, non vendiamo né condividiamo dati.
 - Alcune funzioni contattano servizi di terzi (sotto), che possono vedere il tuo indirizzo IP e ciò che l'app chiede loro.
 
 ### Dati che restano sul telefono
+
 - **Liste e carte, quantità, prezzi inseriti o letti, acquisti, carte scansionate, preferenze** (lingua, tema, filtri delle fiere): nel database dell'app e nelle impostazioni dell'app.
 - **Token CardTrader** (solo se lo colleghi): salvato nell'archivio sicuro del telefono (Keychain su iPhone, Keystore su Android). Non viene mai inviato a noi; va solo a `api.cardtrader.com`. Puoi scollegarlo dalle Impostazioni.
 - **Backup**: file creati nell'app. Se li esporti, li condividi tu con la schermata di condivisione del sistema.
@@ -27,6 +30,7 @@ Titolare del trattamento: Manuel De Santis (persona fisica, sviluppatore indipen
 - **Calendario**: "Aggiungi al calendario" apre il calendario di sistema; l'app non ha accesso al tuo calendario.
 
 ### Servizi di terzi che l'app contatta
+
 | Servizio | Quando | Cosa riceve | Informativa |
 |---|---|---|---|
 | **Scryfall** (api.scryfall.com, cards.scryfall.io, svgs.scryfall.io) | ricerca carte, dettagli, prezzi di riferimento, elenco delle edizioni (circa una volta al mese), immagini e simboli | testo delle ricerche, nomi/identificativi delle carte, indirizzo IP | scryfall.com |
@@ -39,19 +43,24 @@ Titolare del trattamento: Manuel De Santis (persona fisica, sviluppatore indipen
 Non controlliamo come questi servizi trattano i dati: valgono le loro informative. **Non scrivere dati personali** nelle segnalazioni su GitHub: sono pubbliche.
 
 ### Base giuridica e conservazione
+
 I dati sul telefono sono trattati solo da te e dall'app per fornirti le funzioni che usi. Non abbiamo copie. Se disinstalli l'app, i dati dell'app (compresi i backup interni) vengono cancellati dal sistema: **esporta un backup** prima, se vuoi tenerli.
 
 ### I tuoi diritti
+
 Poiché non abbiamo i tuoi dati, non possiamo consultarli né cancellarli per te: puoi farlo tu stesso nell'app (elimina liste, azzera le carte scansionate, scollega CardTrader) o disinstallando l'app.
 Per domande sulla privacy: fieracards@gmail.com. Hai diritto di presentare reclamo al Garante per la protezione dei dati personali (www.garanteprivacy.it).
 
 ### Minori
+
 L'app non è rivolta ai minori di 13 anni e non raccoglie dati su nessuno.
 
 ### Modifiche
+
 Se l'app cambia in modo rilevante, aggiorniamo questa pagina e la data in alto.
 
 ### Contenuti di terzi e marchi
+
 Fiera Cards non è affiliata a Wizards of the Coast, Scryfall, Cardmarket, CardTrader né agli organizzatori degli eventi. Vedi l'avviso "Non affiliata" nelle Impostazioni.
 
 ---
@@ -62,15 +71,18 @@ Fiera Cards non è affiliata a Wizards of the Coast, Scryfall, Cardmarket, CardT
 Last updated: 21 October 2026
 
 ### Who we are
+
 Fiera Cards is a free, unofficial app to keep lists of Magic cards you want to buy, check prices and browse a list of fairs and events.
 Data controller: Manuel De Santis (individual, independent developer), contact: fieracards@gmail.com.
 
 ### In short
+
 - **No account and no server**: your lists, purchases, prices and scanned cards stay **on your phone**.
 - **We do not collect data about you**, show no ads, use no analytics or tracking, and do not sell or share data.
 - Some features contact third-party services (below), which can see your IP address and what the app asks them.
 
 ### Data kept on your phone
+
 - **Lists, cards, quantities, prices you enter or read, purchases, scanned cards, preferences** (language, theme, fair filters): in the app's database and settings.
 - **CardTrader token** (only if you connect it): stored in the phone's secure storage (Keychain on iPhone, Keystore on Android). It is never sent to us; it only goes to `api.cardtrader.com`. You can disconnect it in Settings.
 - **Backups**: files created in the app. If you export one, you share it yourself through the system share sheet.
@@ -81,6 +93,7 @@ Data controller: Manuel De Santis (individual, independent developer), contact: 
 - **Calendar**: "Add to calendar" opens the system calendar; the app has no access to your calendar.
 
 ### Third-party services the app contacts
+
 | Service | When | What it receives | Policy |
 |---|---|---|---|
 | **Scryfall** | card search, details, reference prices, list of sets (about once a month), images and symbols | search text, card names/ids, IP address | scryfall.com |
@@ -93,25 +106,21 @@ Data controller: Manuel De Santis (individual, independent developer), contact: 
 We do not control how these services handle data: their policies apply. **Do not write personal data** in GitHub reports: they are public.
 
 ### Legal basis and retention
+
 Data on the phone is processed only by you and the app to give you the features you use. We hold no copies. If you uninstall the app, its data (including internal backups) is deleted by the system: **export a backup** first if you want to keep it.
 
 ### Your rights
+
 Since we do not hold your data, we cannot access or delete it for you; you can do it in the app (delete lists, clear scanned cards, disconnect CardTrader) or by uninstalling. Privacy questions: fieracards@gmail.com. You may lodge a complaint with your data protection authority (in Italy: www.garanteprivacy.it).
 
 ### Children
+
 The app is not directed at children under 13 and does not collect data about anyone.
 
 ### Changes
+
 If the app changes significantly, we update this page and the date above.
 
 ### Third-party content and trademarks
+
 Fiera Cards is not affiliated with Wizards of the Coast, Scryfall, Cardmarket, CardTrader or the organisers of the events. See the "Not affiliated" notice in Settings.
-
----
-
-## Note per App Store Connect ("Privacy dell'app")
-Bozza di risposta, **da verificare** con la guida di Apple al momento della compilazione:
-- Dati raccolti dallo sviluppatore: **nessuno** (nessun server né strumenti di terzi dello sviluppatore).
-- Servizi di terzi contattati dall'app (Scryfall, GitHub, CardTrader): ricevono indirizzo IP e richieste. Apple chiede di dichiarare i dati *raccolti*; se si ritiene che il testo delle ricerche inviato a Scryfall conti come "Search History", dichiararlo "non collegato all'utente, non usato per tracciamento". In dubbio, essere prudenti e coerenti con questa informativa.
-- Tracciamento: **no**.
-- Crittografia: solo HTTPS di sistema → esente (`ITSAppUsesNonExemptEncryption = false`).

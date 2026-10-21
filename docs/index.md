@@ -7,6 +7,7 @@ title: Fiera Cards
 - [Informativa sulla privacy / Privacy Policy](privacy)
 
 ## Avviso / Notice
+
 **Italiano**
 > Fiera Cards è un'app indipendente e gratuita. Non è affiliata, sponsorizzata né approvata da Wizards of the Coast, Scryfall, Cardmarket, CardTrader, Apple né dagli organizzatori delle fiere e degli eventi citati. Magic: The Gathering è un marchio di Wizards of the Coast LLC. Tutti gli altri nomi e marchi appartengono ai rispettivi proprietari e sono usati solo per identificarli.
 > I dati delle carte e le immagini provengono da Scryfall. I prezzi di Scryfall sono un riferimento e si aggiornano una volta al giorno. I prezzi di CardTrader si leggono con il tuo account e quelli di Cardmarket si leggono dalla pagina che stai guardando: sono indicativi, vengono mostrati solo sul tuo telefono e non sono garantiti. Controlla sempre il prezzo sul sito prima di comprare.
