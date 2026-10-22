@@ -5,7 +5,7 @@ title: Fiera Cards - Privacy
 ## Italiano
 
 **Fiera Cards — Informativa sulla privacy**
-Ultimo aggiornamento: 21 ottobre 2026
+Ultimo aggiornamento: 22 ottobre 2026
 
 ### Chi siamo
 
@@ -15,7 +15,7 @@ Titolare del trattamento: Manuel De Santis (persona fisica, sviluppatore indipen
 ### In breve
 
 - **Non c'è un account** e **non abbiamo un server**: le tue liste, gli acquisti, i prezzi e le carte scansionate restano **sul tuo telefono**.
-- **Non raccogliamo dati su di te**, non facciamo pubblicità, non usiamo statistiche né strumenti di tracciamento, non vendiamo né condividiamo dati.
+- **Non raccogliamo dati su di te**, non facciamo pubblicità, non usiamo statistiche né strumenti di tracciamento, non vendiamo né condividiamo dati. Unica eccezione tecnica: **su Android** il componente di Google per riconoscere il testo (ML Kit) può inviare a Google dati tecnici di diagnostica (vedi sotto).
 - Alcune funzioni contattano servizi di terzi (sotto), che possono vedere il tuo indirizzo IP e ciò che l'app chiede loro.
 
 ### Dati che restano sul telefono
@@ -35,6 +35,7 @@ Titolare del trattamento: Manuel De Santis (persona fisica, sviluppatore indipen
 |---|---|---|---|
 | **Scryfall** (api.scryfall.com, cards.scryfall.io, svgs.scryfall.io) | ricerca carte, dettagli, prezzi di riferimento, elenco delle edizioni (circa una volta al mese), immagini e simboli | testo delle ricerche, nomi/identificativi delle carte, indirizzo IP | scryfall.com |
 | **GitHub** (raw.githubusercontent.com) | elenco delle fiere | indirizzo IP, richiesta del file pubblico | docs.github.com |
+| **Google ML Kit** (solo Android, tramite Google Play services) | quando si legge una carta con la fotocamera | la foto e il testo letto **non** vengono inviati; il componente può inviare a Google dati tecnici di diagnostica e uso: modello del telefono e versione di Android, nome e versione dell'app, identificatori anonimi dell'installazione e metriche di prestazione (come descritto da Google, via HTTPS, senza cederli a terzi) | developers.google.com/ml-kit/android-data-disclosure |
 | **CardTrader** (api.cardtrader.com) | solo se colleghi il tuo account | il tuo token, le carte di cui chiedi il prezzo, indirizzo IP | cardtrader.com |
 | **Cardmarket** (cardmarket.com) | solo se apri la finestra Cardmarket | quello che fai nella pagina (come nel browser): l'app legge **solo** le offerte che stai guardando, sul telefono, senza inviare nulla a noi | cardmarket.com |
 | **Mappe e navigazione** (Apple Maps; Google Maps o Waze se li scegli) | mappa degli eventi e "Indicazioni" | Apple Maps mostra la mappa su iPhone (su Android non c'è una mappa nell'app); i link a Google Maps/Waze aprono quelle app o il browser con la destinazione | apple.com, google.com, waze.com |
@@ -68,7 +69,7 @@ Fiera Cards non è affiliata a Wizards of the Coast, Scryfall, Cardmarket, CardT
 ## English
 
 **Fiera Cards — Privacy Policy**
-Last updated: 21 October 2026
+Last updated: 22 October 2026
 
 ### Who we are
 
@@ -78,7 +79,7 @@ Data controller: Manuel De Santis (individual, independent developer), contact: 
 ### In short
 
 - **No account and no server**: your lists, purchases, prices and scanned cards stay **on your phone**.
-- **We do not collect data about you**, show no ads, use no analytics or tracking, and do not sell or share data.
+- **We do not collect data about you**, show no ads, use no analytics or tracking, and do not sell or share data. One technical exception: **on Android**, Google's text-recognition component (ML Kit) may send technical diagnostic data to Google (see below).
 - Some features contact third-party services (below), which can see your IP address and what the app asks them.
 
 ### Data kept on your phone
@@ -98,6 +99,7 @@ Data controller: Manuel De Santis (individual, independent developer), contact: 
 |---|---|---|---|
 | **Scryfall** | card search, details, reference prices, list of sets (about once a month), images and symbols | search text, card names/ids, IP address | scryfall.com |
 | **GitHub** (raw.githubusercontent.com) | list of fairs | IP address, request for a public file | docs.github.com |
+| **Google ML Kit** (Android only, via Google Play services) | when a card is read with the camera | the photo and the recognised text are **not** sent; the component may send technical diagnostic and usage data to Google: phone model and Android version, app name and version, anonymous installation identifiers and performance metrics (as described by Google, over HTTPS, not transferred to third parties) | developers.google.com/ml-kit/android-data-disclosure |
 | **CardTrader** | only if you connect your account | your token, the cards you ask prices for, IP address | cardtrader.com |
 | **Cardmarket** | only if you open the Cardmarket window | what you do on the page (as in a browser); the app reads **only** the offers you are looking at, on the phone, sending nothing to us | cardmarket.com |
 | **Maps and navigation** (Apple Maps; Google Maps or Waze if you choose them) | event map and "Directions" | Apple Maps shows the map on iPhone (Android has no in-app map); Google Maps/Waze links open those apps or the browser with the destination | apple.com, google.com, waze.com |
